@@ -1,0 +1,33 @@
+// seletores: propriedades: valores
+
+// tag
+// class
+// id
+// * = seletor global
+// A diferença deles é que a tag consegue selecionar todas as TAGS do mesmo tipo, a classe consegue selecionar várias vezes o mesmo nome de classe na mesma página e o ID só consegue selecionar uma vez na página, ou seja, deve ser único.
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Selecionando Tag
+img {
+    width: 300px;
+    border-radius: 20px;
+    height: auto;
+    border: 5px solid #ffb0c8;
+}
+
+// Selecionando Classe, podemos reutilizar um nome de classe várias vezes na mesma página para aplicar o mesmo estilo a diferentes elementos.
+.filmes {
+    background-color: #37cacfa2;
+    border: #ffb0c8 2px solid;
+    // opacity: 0.8; // opacidade
+}
+
+// Selecionando ID, deve ser único na página, ou seja, não podemos usar o mesmo nome de ID mais de uma vez na mesma página.
+#btn1 {
+    background-color: #ffb0c8;
+}

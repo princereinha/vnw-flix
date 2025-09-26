@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 300px;
+  border-radius: 20px;
+  height: auto;
+  border: 5px solid #ffb0c8;
+}
+
+.filmes {
+  background-color: rgba(55, 202, 207, 0.6352941176);
+  border: #ffb0c8 2px solid;
+}
+
+#btn1 {
+  background-color: #ffb0c8;
+}/*# sourceMappingURL=style.css.map */
