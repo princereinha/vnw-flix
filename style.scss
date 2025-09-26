@@ -30,4 +30,14 @@ img {
 // Selecionando ID, deve ser único na página, ou seja, não podemos usar o mesmo nome de ID mais de uma vez na mesma página.
 #btn1 {
     background-color: #ffb0c8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#btn1:hover {
+    background-color: #ff85a1;
 }
